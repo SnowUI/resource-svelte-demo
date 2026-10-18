@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@snowui-design-system/resource-svelte':
-        specifier: ^1.0.25
-        version: 1.0.25(svelte@5.44.0)
+        specifier: 1.0.31
+        version: 1.0.31(svelte@5.44.0)
       svelte:
         specifier: ^5.0.0
         version: 5.44.0
@@ -654,11 +654,11 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@snowui-design-system/resource-base@1.0.25':
-    resolution: {integrity: sha512-UFGfXiVdjKEJ3asaRT5B/z1EhTI0lBcvZtvODpeZGxCCk3K39kNcX0kbwcw00uVdQhAS9OKzH1Ei7CYplSuXJg==}
+  '@snowui-design-system/resource-base@1.0.30':
+    resolution: {integrity: sha512-u60fTr513yQ8rn/IdanUm62HMVt5jCVa77jCPuwNdiigeouSo0KHkpJXkSEPpU/5dW5Gp+Z+wczzvGXNuTSHnw==}
 
-  '@snowui-design-system/resource-svelte@1.0.25':
-    resolution: {integrity: sha512-hIA8mBX1v0b+00YTjrtLmsR7zny6Mc3CaUf2qrWUBS2k4oK7EfzJdswaIepP8dErHQBnQ7x4/rnduOZ5tkFmVw==}
+  '@snowui-design-system/resource-svelte@1.0.31':
+    resolution: {integrity: sha512-7NPnZmwt0z/uN1RdJqrEm5Q9wolQI3EE8kgtlmqghzQ0V3zS4pW1zFKcrkvRUMMnZIKZWYFCDPXfbJ3Dkk/gfA==}
     peerDependencies:
       svelte: ^4.0.0 || ^5.0.0
 
@@ -1545,11 +1545,11 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.53.3':
     optional: true
 
-  '@snowui-design-system/resource-base@1.0.25': {}
+  '@snowui-design-system/resource-base@1.0.30': {}
 
-  '@snowui-design-system/resource-svelte@1.0.25(svelte@5.44.0)':
+  '@snowui-design-system/resource-svelte@1.0.31(svelte@5.44.0)':
     dependencies:
-      '@snowui-design-system/resource-base': 1.0.25
+      '@snowui-design-system/resource-base': 1.0.30
       svelte: 5.44.0
 
   '@sveltejs/acorn-typescript@1.0.7(acorn@8.15.0)':

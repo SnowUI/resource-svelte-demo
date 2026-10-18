@@ -4,12 +4,13 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "test": "node --test scripts/*.test.mjs",
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
-    "@snowui-design-system/resource-svelte": "^1.0.25",
+    "@snowui-design-system/resource-svelte": "1.0.31",
     "svelte": "^5.0.0"
   },
   "devDependencies": {
