@@ -1,3 +1,21 @@
 # SnowUI Resource Svelte Demo
 
-`@snowui-design-system/resource-svelte` 资源浏览与消费演示应用（内部私有仓库）。项目规则、开发命令与路由入口见 [AGENTS.md](AGENTS.md)。
+Interactive SvelteKit gallery and integration demo for `@snowui-design-system/resource-svelte` (icons, avatars, backgrounds, illustrations, logos, and `IconProvider` switching).
+
+- Resource package: https://github.com/SnowUI/resource-svelte (`@snowui-design-system/resource-svelte`)
+- Base asset package: https://github.com/SnowUI/resource-base (`@snowui-design-system/resource-base`)
+- SnowUI documentation: https://snowui.dev/components · [AGENTS.md](./AGENTS.md)
+
+## Run Locally
+
+```sh
+pnpm install
+pnpm dev
+```
+
+Build and type-check:
+
+```sh
+pnpm check
+pnpm build
+```
